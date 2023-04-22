@@ -1,0 +1,69 @@
+.donate {
+  width: 100%;
+  height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.donate .landing {
+  width: 100%;
+  height: 100%;
+}
+
+.donate .row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(242,241,239,1);
+}
+
+.donate .row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate .row1 .details {
+  padding: 30px;
+  background-color: rgba(242,241,239,1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.donate #payment {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.donate h1 {
+  opacity: 1;
+  font-size: 3rem;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.donate .landing .picture {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../Images/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .donate {
+    width: 100%;
+  }
+}
